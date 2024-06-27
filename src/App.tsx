@@ -1,9 +1,8 @@
-import Like from "./components/Like";
-
+import Form from "./components/Form";
 function App() {
   return (
     <div>
-      <Like onClick={() => console.log("Cliked")} />
+      <Form />
     </div>
   );
 }
